@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "name": "bet_jury",
+  "instructions": [
+    {
+      "name": "createBet",
+      "accounts": [
+        { "name": "bet", "isMut": true, "isSigner": true },
+        { "name": "creator", "isMut": true, "isSigner": true }
+      ],
+      "args": [
+        { "name": "terms", "type": "string" },
+        { "name": "stake", "type": "u64" }
+      ]
+    }
+  ]
+}
