@@ -1,0 +1,12 @@
+[programs.localnet]
+bet_jury = "BetJury11111111111111111111111111111111111"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "anchor test"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
